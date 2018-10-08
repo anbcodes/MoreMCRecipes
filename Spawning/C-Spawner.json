@@ -1,0 +1,32 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#D#",
+        "EIg",
+        "#i#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_bars"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        },
+        "I": {
+            "item": "minecraft:egg"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:spawner",
+        "count": 1
+    }
+}
