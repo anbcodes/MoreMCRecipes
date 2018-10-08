@@ -2,11 +2,11 @@
     "type": "crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:bucket"
+            "item": "minecraft:iron_helmet"
         }
     ],
     "result": {
         "item": "minecraft:iron_ingot",
-        "count": 3
+        "count": 4
     }
 }
