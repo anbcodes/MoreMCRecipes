@@ -1,4 +1,4 @@
-#skicka upload ./ "minecraft resipes"
+#!/bin/bash
 git add .
 git commit -am "added more things"
 git push

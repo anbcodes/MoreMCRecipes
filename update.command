@@ -1,2 +1,2 @@
-# skicka download "minecraft resipes" ./
+#!/bin/bash
 git pull
