@@ -1,0 +1,27 @@
+﻿{
+    "type": "crafting_shapeless",
+    "ingorangeients": [
+        {
+            "item": "minecraft:orange_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:orange_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:orange_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:orange_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:orange_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:orange_stained_glass_pane"
+        }
+    ],
+    "result": {
+        "item": "minecraft:orange_stained_glass",
+        "count": 1
+    }
+}
