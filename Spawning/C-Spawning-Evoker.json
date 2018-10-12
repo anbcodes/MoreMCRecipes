@@ -1,0 +1,23 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        "VEV",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:potion"
+        },
+        "V": {
+            "item": "minecraft:vex_spawn_egg"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:evoker_spawn_egg",
+        "count": 1
+    }
+}

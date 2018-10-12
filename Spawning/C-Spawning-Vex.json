@@ -1,0 +1,23 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        "IEI",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:feather"
+        },
+        "I": {
+            "item": "minecraft:iron_sword"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:vex_spawn_egg",
+        "count": 1
+    }
+}
