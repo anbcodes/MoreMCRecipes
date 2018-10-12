@@ -7,19 +7,22 @@ myf = """{
 import os
 import sys
 if sys.argv[1] == "make":
-    f = sys.argv[3:]
+    f = sys.argv[3:-1]
     name = sys.argv[2]
     try:
         os.mkdir("./" + name)
     except FileExistsError:
-        input("this will rewrite your file (ctrl c to cancel)")
+        if sys.argv[-1] != 'f':
+            input("this will rewrite your file (ctrl c to cancel)")
+        else:
+            f = sys.argv[3:-2]
         os.system("rm -rf ./" + name)
         os.mkdir("./" + name)
     os.mkdir("./" + name + "/data")
     os.system("echo '{}' >>".format(myf) + "./" + name + "/pack.mcmeta")
     os.mkdir("./" + name + "/data" + "/mystuff")
     os.mkdir("./" + name + "/data" + "/mystuff" + "/recipes")
-    for x in sys.argv[2:]:
+    for x in f:
         for file in os.listdir(x):
             if file.endswith(".json"):
                 os.system("cp ./{}/{} ./".format(x, file) + name + "/data" + "/mystuff" + "/recipes")
