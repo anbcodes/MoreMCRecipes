@@ -2,22 +2,19 @@
     "type": "crafting_shaped",
     "pattern": [
         " # ",
-        "TET",
+        "#E#",
         " # "
     ],
     "key": {
         "#": {
-            "item": "minecraft:vex_spawn_egg"
-        },
-        "T": {
-            "item": "minecraft:totem_of_undying"
+            "item": "minecraft:rotten_flesh"
         },
         "E": {
             "item": "minecraft:egg"
         }
     },
     "result": {
-        "item": "minecraft:evoker_spawn_egg",
+        "item": "minecraft:zombie_spawn_egg",
         "count": 1
     }
 }

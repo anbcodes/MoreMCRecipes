@@ -2,22 +2,22 @@
     "type": "crafting_shaped",
     "pattern": [
         " # ",
-        "TET",
+        "SES",
         " # "
     ],
     "key": {
         "#": {
-            "item": "minecraft:vex_spawn_egg"
+            "item": "minecraft:string"
         },
-        "T": {
-            "item": "minecraft:totem_of_undying"
+        "S": {
+            "item": "minecraft:spider_eye"
         },
         "E": {
             "item": "minecraft:egg"
         }
     },
     "result": {
-        "item": "minecraft:evoker_spawn_egg",
+        "item": "minecraft:spider_spawn_egg",
         "count": 1
     }
 }

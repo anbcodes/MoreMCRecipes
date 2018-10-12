@@ -2,22 +2,22 @@
     "type": "crafting_shaped",
     "pattern": [
         " # ",
-        "TET",
+        "GEG",
         " # "
     ],
     "key": {
         "#": {
-            "item": "minecraft:vex_spawn_egg"
+            "item": "minecraft:ghast_tear"
         },
-        "T": {
-            "item": "minecraft:totem_of_undying"
+        "G": {
+            "item": "minecraft:gunpowder"
         },
         "E": {
             "item": "minecraft:egg"
         }
     },
     "result": {
-        "item": "minecraft:evoker_spawn_egg",
+        "item": "minecraft:ghast_spawn_egg",
         "count": 1
     }
 }
