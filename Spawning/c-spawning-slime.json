@@ -1,13 +1,16 @@
 ﻿{
     "type": "crafting_shaped",
     "pattern": [
-        " # ",
+        " $ ",
         "#E#",
-        " # "
+        " $ "
     ],
     "key": {
         "#": {
             "item": "minecraft:slime_ball"
+        },
+        "$": {
+            "item": "minecraft:slime_block"
         },
         "E": {
             "item": "minecraft:egg"
