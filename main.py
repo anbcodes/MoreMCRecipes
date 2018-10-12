@@ -7,8 +7,8 @@ myf = """{
 import os
 import sys
 if sys.argv[1] == "make":
-    f = sys.argv[2:]
-    name = input("packname:\n")
+    f = sys.argv[3:]
+    name = sys.argv[2]
     try:
         os.mkdir("./" + name)
     except FileExistsError:
